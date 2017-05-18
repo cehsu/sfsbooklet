@@ -2,6 +2,7 @@
   "name": "create-react-pwa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://clairehsu.io/sfsbooklet/",
   "devDependencies": {
     "react-scripts": "0.7.0",
     "sw-precache": "^4.2.2"
