@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // var JsSearch = require('js-search');
 import logo from './logo.svg';
-import './App.css';
+import '../../style/App.css';
 
 var theGreatGatsby = {
  isbn: '9781597226769',

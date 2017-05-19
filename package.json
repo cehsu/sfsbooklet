@@ -2,16 +2,43 @@
   "name": "create-react-pwa",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cehsu/sfsbooklet.git"
+  },
   "homepage": "http://cehsu.github.io/sfsbooklet",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.1",
     "gh-pages": "^1.0.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^1.3.2",
+    "postcss-loader": "^2.0.5",
     "react-scripts": "0.7.0",
-    "sw-precache": "^4.2.2"
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "sw-precache": "^4.2.2",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "isomorphic-fetch": "^2.2.1",
     "js-search": "^1.4.2",
-    "react": "^15.4.0",
-    "react-dom": "^15.4.0"
+    "minimist": "^1.2.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-icons": "^2.2.5",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
