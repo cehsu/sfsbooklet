@@ -1,7 +1,7 @@
 var JsSearch = require('js-search');
 var RefGuide = require('./RefGuide.json');
 
-const search = new JsSearch('name')
+const search = new JsSearch.Search('name');
 
 search.addIndex('crisis_line');
 search.addIndex('business_line');
