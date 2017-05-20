@@ -1,31 +1,33 @@
-{
-    "data": {
-        "The Great Gatsby": {
-            "isbn": "9781597226769",
-            "title": "The Great Gatsby",
-            "author": {
-                "name": "F. Scott Fitzgerald"
+[
+    {
+        "data": {
+            "The Great Gatsby": {
+                "isbn": "9781597226769",
+                "title": "The Great Gatsby",
+                "author": {
+                    "name": "F. Scott Fitzgerald"
+                },
+                "tags": "['book', 'inspirational']"
             },
-            "tags": "['book', 'inspirational']"
-        },
-    
-        "The Davinci Code" :{
-            "isbn": "0307474275",
-            "title": "The DaVinci Code",
-            "author": {
-            "name": "Dan Brown"
+        
+            "The Davinci Code" :{
+                "isbn": "0307474275",
+                "title": "The DaVinci Code",
+                "author": {
+                "name": "Dan Brown"
+                },
+                "tags": ["book", "mystery"]
             },
-            "tags": ["book", "mystery"]
-        },
 
-        "Angels and Demons": {
-            "isbn": "074349346X",
-            "title": "Angels & Demons",
-            "author": {
-            "name": "Dan Brown"
-            },
-            "tags": ["book", "mystery"]
+            "Angels and Demons": {
+                "isbn": "074349346X",
+                "title": "Angels & Demons",
+                "author": {
+                "name": "Dan Brown"
+                },
+                "tags": ["book", "mystery"]
+            }
         }
     }
-}
 
+]
