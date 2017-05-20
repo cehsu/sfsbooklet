@@ -1,8 +1,10 @@
-import React, { Component } from 'react'
-import ResultsList from './containers/ResultsList'
-import search from '../js/search'
+import React, { Component } from 'react';
+import ResultsList from './containers/ResultsList';
+import search from '../js/search';
+import RaisedButton from 'material-ui/RaisedButton';
+import TextField from 'material-ui/TextField';
 
-let results = ''
+let results = '';
 
 class SearchBar extends Component {
     constructor(props) {
@@ -43,8 +45,8 @@ class SearchBar extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <input type="text" value={this.state.value} onChange={this.handleChange} />
-                <input type="submit" value="Submit" />
+                <TextField type="text" value={this.state.value} onChange={this.handleChange} />
+                <RaisedButton label="Submit" type="submit" />
             </form>
         );
     }
