@@ -1,35 +1,27 @@
 var JsSearch = require('js-search');
+var RefGuide = require('./RefGuide.json');
 
-var theGreatGatsby = {
- isbn: '9781597226769',
- title: 'The Great Gatsby',
- author: {
-   name: 'F. Scott Fitzgerald'
- },
- tags: ['book', 'inspirational']
-};
+const search = new JsSearch('name')
 
-var theDaVinciCode = {
- isbn: '0307474275',
- title: 'The DaVinci Code',
- author: {
-   name: 'Dan Brown'
- },
- tags: ['book', 'mystery']
-};
+search.addIndex('crisis_line');
+search.addIndex('business_line');
+search.addIndex('fax');
+search.addIndex('tdd');
+search.addIndex('insurance');
+search.addIndex('fees');
+search.addIndex('hours');
+search.addIndex('ages');
+search.addIndex('website');
+search.addIndex('languages');
+search.addIndex('address');
+search.addIndex('categories');
+search.addIndex('description');
+search.addIndex('services');
+search.addIndex('name (old)');
+search.addIndex('email');
+search.addIndex('pops_served');
+search.addIndex('wheelchair')
 
-var angelsAndDemons = {
- isbn: '074349346X',
- title: 'Angels & Demons',
- author: {
-   name: 'Dan Brown',
- },
- tags: ['book', 'mystery']
-};
+search.addDocuments(RefGuide);
 
-let search = new JsSearch.Search('isbn');
-search.addIndex('title');
-search.addIndex(['author', 'name']);
-search.addIndex('tags')
-
-search.addDocuments([theGreatGatsby, theDaVinciCode, angelsAndDemons]);
+export default search;
