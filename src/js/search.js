@@ -27,9 +27,10 @@ var angelsAndDemons = {
  tags: ['book', 'mystery']
 };
 
-let search = new JsSearch.Search('isbn');
+const search = new JsSearch.Search('isbn');
 search.addIndex('title');
 search.addIndex(['author', 'name']);
 search.addIndex('tags')
 
 search.addDocuments([theGreatGatsby, theDaVinciCode, angelsAndDemons]);
+export default search;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ResultsList from './containers/ResultsList'
-import { search } from '../js/search'
+import search from '../js/search'
 
 let results = ''
 
