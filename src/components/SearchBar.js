@@ -5,6 +5,7 @@ import AutoComplete from 'material-ui/AutoComplete'
 import RaisedButton from 'material-ui/RaisedButton';
 import FontAwesome from 'react-fontawesome';
 import RefGuideData from '../../data/refguide.json';
+// import search from '../js/search'
 
 let results = '' // variable used to modify state
 
@@ -46,7 +47,7 @@ class SearchBar extends Component {
         return (
             <div>
                 <MuiThemeProvider>
-                    {/*TODO: Make AutoComplete component do its job! (Hint: line 52)*/}
+                    {/*TODO: Make AutoComplete component do its job! (Hint: lines 52 & 12!)*/}
                     <AutoComplete 
                         id="search-field"
                         dataSource={RefGuideData}
