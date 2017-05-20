@@ -11,6 +11,7 @@
     "sw-precache": "^4.2.2"
   },
   "dependencies": {
+    "caniuse-api": "^2.0.0",
     "js-search": "^1.4.2",
     "material-design-icons": "^3.0.1",
     "material-ui": "^0.18.1",
