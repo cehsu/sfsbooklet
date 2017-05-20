@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
 import ResultsList from './containers/ResultsList'
-import { search } from '../js/search'
+import JsSearch from 'js-search'
+import SampleSearchData from '../../data/sampleSearchData.json'
 
-let results = ''
+let results = '' // variable used to modify state
+
+let search = new JsSearch.Search('isbn');
+search.addIndex('title');
+search.addIndex(['author', 'name']);
+search.addIndex('tags')
+
+search.addDocuments([SampleSearchData.data[0], SampleSearchData.data[1], SampleSearchData.data[2]]);
+
 
 class SearchBar extends Component {
     constructor(props) {
