@@ -1,0 +1,5 @@
+    -   repo: https://github.com/awebdeveloper/pre-commit-prettier
+        sha: ''  # Use the sha or tag you want to point at
+        hooks:
+        -   id: prettier
+            additional_dependencies: ['prettier@1.1.0']
