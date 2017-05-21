@@ -17,6 +17,7 @@
     "prop-types": "^15.5.10",
     "react-scripts": "0.7.0",
     "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
     "sw-precache": "^4.2.2"
   },
   "dependencies": {
@@ -42,5 +43,8 @@
     ],
     "*.{js,jsx}": "eslint",
     "*.css": "stylelint"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   }
 }
