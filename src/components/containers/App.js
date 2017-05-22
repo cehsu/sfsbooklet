@@ -3,7 +3,6 @@ import logo from '../../logo.svg';
 import SearchBar from '../SearchBar'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import '../../styles/App.css';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 /* TODO: Render MuiThemeProvider on the server for much needed utility 
 (currently, you have to prepend a MuiThemProvider component to each material-ui component #soTedious)
