@@ -20,7 +20,7 @@ search.addIndex('services');
 search.addIndex('name (old)');
 search.addIndex('email');
 search.addIndex('pops_served');
-search.addIndex('wheelchair');
+search.addIndex('wheelchair')
 
 search.addDocuments(RefGuide);
 

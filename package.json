@@ -21,10 +21,13 @@
     "sw-precache": "^4.2.2"
   },
   "dependencies": {
+    "caniuse-api": "^2.0.0",
     "js-search": "^1.4.2",
+    "material-design-icons": "^3.0.1",
     "material-ui": "^0.18.1",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
+    "react-fontawesome": "^1.6.1",
     "react-tap-event-plugin": "^2.0.1"
   },
   "scripts": {
