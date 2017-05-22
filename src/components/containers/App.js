@@ -3,6 +3,7 @@ import logo from '../../logo.svg';
 import SearchBar from '../SearchBar'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import '../../styles/App.css';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 /* TODO: Render MuiThemeProvider on the server for much needed utility 
 (currently, you have to prepend a MuiThemProvider component to each material-ui component #soTedious)
@@ -10,6 +11,7 @@ import '../../styles/App.css';
 class App extends Component {
     render() {
         return (
+          <MuiThemeProvider>
             <div className="App">
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +21,7 @@ class App extends Component {
                     <SearchBar />
                 </div>
             </div>
+          </MuiThemeProvider>
    );
  }
 }
